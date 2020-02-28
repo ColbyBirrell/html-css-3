@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.top-section {
+  height: 75vh;
+  width: 100vw;
+  background-image: url("./assets/IMG_20170703_202146709_HDR.jpg");
+  background-size: cover;
+  background-position-x: center;
+  /* background-position-y: -200px; */
+  background-repeat: no-repeat;
+}
+
+header {
+  height: 7vh;
+  display: flex;
+  justify-content: space-between;
+  color: whitesmoke;
+  background-color: black;
+  align-items: center;
+  padding-right: 15px;
+
+  /* padding: 0 15px; */
+}
+
+.title {
+  font-family: "Permanent Marker";
+  font-size: 25px;
+  margin-left: 15px;
+  /* color: lawngreen; */
+}
+
+.list-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+.dropdown {
+  width: 100vw;
+  position: fixed;
+  top: 7vh;
+  /* margin-left: -15px; */
+  /* right: 0px; */
+  background-color: black;
+  transition: 0.75s;
+  overflow: hidden;
+  color: whitesmoke;
+}
+
+.show-menu {
+  height: 15vh;
+}
+
+.hide-menu {
+  height: 0;
+}
